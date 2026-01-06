@@ -2,7 +2,9 @@
 
 <div align="center">
 
+Turn any text into immersive audiobooks featuring emotion-rich AI voices, unique character sound, and customizable audio environments.
 A **modular, extensible Python-based audiobook generation system** with support for multiple TTS providers, emotion-controllable voice synthesis, audio effects, and a modern web interface.
+
 
 [Features](#features) • [Architecture](#architecture) • [Quick Start](#quick-start) • [Documentation](#documentation) • [Contributing](#contributing)
 
