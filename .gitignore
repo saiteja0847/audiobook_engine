@@ -1,0 +1,38 @@
+# Audio files
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Generated audio
+**/audio/*.wav
+**/full_audiobook*.wav
+**/background_audio/
+
+# Models
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Session files
+SESSION.md

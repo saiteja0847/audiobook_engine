@@ -1,0 +1,1020 @@
+{
+  "metadata": {
+    "total_chunks": 92,
+    "segments_processed": 3
+  },
+  "chunks": [
+    {
+      "chunk_id": 1,
+      "text": "Conscription Day is always the deadliest.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 2,
+      "text": "Maybe that\u2019s why the sunrise is especially beautiful this morning\u2014because I know it might be my last.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 3,
+      "text": "I tighten the straps of my heavy canvas rucksack and trudge up the wide staircase of the stone fortress I call home.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 4,
+      "text": "My chest heaves with exertion, my lungs burning by the time I reach the stone corridor leading to General Sorrengail\u2019s office.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 5,
+      "text": "This is what six months of intense physical training has given me\u2014the ability to barely climb six flights of stairs with a thirty-pound pack.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 6,
+      "text": "I\u2019m so fucked.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 7,
+      "text": "The thousands of twenty-year-olds waiting outside the gate to enter their chosen quadrant for service are the smartest and strongest in Navarre.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 8,
+      "text": "Hundreds of them have been preparing for the Riders Quadrant, the chance to become one of the elite, since birth.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 9,
+      "text": "I\u2019ve had exactly six months.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 10,
+      "text": "The expressionless guards lining the wide hallway at the top of the landing avoid my eyes as I pass, but that\u2019s nothing new.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 11,
+      "text": "Besides, being ignored is the best possible scenario for me.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 12,
+      "text": "Basgiath War College isn\u2019t known for being kind to\u2026well, anyone, even those of us whose mothers are in command.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 13,
+      "text": "Every Navarrian officer, whether they choose to be schooled as healers, scribes, infantry, or riders, is molded within these cruel walls over three years, honed into weapons to secure our mountainous borders from the violent invasion attempts of the kingdom of Poromiel and their gryphon riders.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 14,
+      "text": "The weak don\u2019t survive here, especially not in the Riders Quadrant.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 15,
+      "text": "You\u2019re sending her to die!",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "fearful"
+      },
+      "emotion_prompt": "fearful",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 16,
+      "text": "a familiar voice thunders through the general\u2019s thick wooden door, and I gasp.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 17,
+      "text": "There\u2019s only one woman on the Continent foolish enough to raise her voice to the general, but she\u2019s supposed to be on the border with the Eastern Wing.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 18,
+      "text": "Mira.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 19,
+      "text": "She doesn\u2019t stand a chance.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 20,
+      "text": "She doesn\u2019t stand a chance.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 21,
+      "text": "Mira shouts as I force the heavy door open and the weight of my pack shifts forward, nearly taking me down.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 22,
+      "text": "Shit.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 23,
+      "text": "The general curses from behind her desk, and I grab onto the back of the crimson-upholstered couch to catch my balance.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 24,
+      "text": "Damn it, Mom, she can\u2019t even handle her rucksack.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 25,
+      "text": "I\u2019m fine!",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 26,
+      "text": "My cheeks heat with mortification, and I force myself upright.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 27,
+      "text": "She\u2019s been back for five minutes and is already trying to save me.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 28,
+      "text": "Because you need saving, you fool.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 29,
+      "text": "I don\u2019t want this.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "fearful"
+      },
+      "emotion_prompt": "fearful",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 30,
+      "text": "I don\u2019t want any part of this Riders Quadrant shit.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 31,
+      "text": "It\u2019s not like I have a death wish.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 32,
+      "text": "I would have been better off failing the admission test to Basgiath and going straight to the army with the majority of conscripts.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 33,
+      "text": "But I can handle my rucksack, and I will handle myself.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 34,
+      "text": "Oh, Violet.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 35,
+      "text": "Worried brown eyes look down at me as strong hands brace my shoulders.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 36,
+      "text": "Hi, Mira.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 37,
+      "text": "A smile tugs at the corners of my mouth.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 38,
+      "text": "She might be here to say her goodbyes, but I\u2019m just glad to see my sister for the first time in years.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 39,
+      "text": "Her eyes soften, and her fingers flex on my shoulders like she might pull me into a hug, but she steps back and turns to stand at my side, facing our mother.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 40,
+      "text": "You can\u2019t do this.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 41,
+      "text": "It\u2019s already done.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 42,
+      "text": "Mom shrugs, the lines of her fitted black uniform rising and falling with the motion.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 43,
+      "text": "I scoff. So much for the hope of a reprieve. Not that I ever should have expected, or even hoped for, an ounce of mercy from a woman who\u2019s been made famous for her lack of it.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 44,
+      "text": "Then undo it.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 45,
+      "text": "She\u2019s spent her whole life training to become a scribe. She wasn\u2019t raised to be a rider.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 46,
+      "text": "Well, she certainly isn\u2019t you, is she, Lieutenant Sorrengail?",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "contemptuous"
+      },
+      "emotion_prompt": "contemptuous",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 47,
+      "text": "Mom braces her hands on the immaculate surface of her desk and leans in slightly as she stands, looking us over with narrowed, appraising eyes that mirror the dragons\u2019 carved into the furniture\u2019s massive legs.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 48,
+      "text": "I don\u2019t need the prohibited power of mind reading to know exactly what she sees.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 49,
+      "text": "At twenty-six years old, Mira\u2019s a younger version of our mother. She\u2019s tall, with strong, powerful muscles toned from years of sparring and hundreds of hours spent on the back of her dragon.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 50,
+      "text": "Her skin practically glows with health, and her golden-brown hair is sheared short for combat in the same style as Mom\u2019s.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 51,
+      "text": "But more than looks, she carries the same arrogance, the unwavering conviction that she belongs in the sky. She\u2019s a rider through and through. She\u2019s everything I\u2019m not, and the disapproving shake of Mom\u2019s head says she agrees.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 52,
+      "text": "I\u2019m too short. Too frail. What curves I do have should be muscle, and my traitorous body makes me embarrassingly vulnerable.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 53,
+      "text": "Mom walks toward us, her polished black boots gleaming in the mage lights that flicker from the sconces.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 54,
+      "text": "She picks up the end of my long braid, scoffs at the section just above my shoulders where the brown strands start to lose their warmth of color and slowly fade to a steely, metallic silver by the ends, and then drops it.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 55,
+      "text": "Pale skin, pale eyes, pale hair.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "fearful"
+      },
+      "emotion_prompt": "fearful",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 56,
+      "text": "Her gaze siphons every ounce of my confidence down to the marrow in my bones.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 57,
+      "text": "It\u2019s like that fever stole all your coloring along with your strength.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 58,
+      "text": "Grief flashes through her eyes and her brows furrow.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 59,
+      "text": "I told him not to keep you in that library.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 60,
+      "text": "It\u2019s not the first time I\u2019ve heard her curse the sickness that nearly killed her while she was pregnant with me or the library Dad made my second home once she\u2019d been stationed here at Basgiath as an instructor and he as a scribe.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 61,
+      "text": "I love that library.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 62,
+      "text": "It\u2019s been more than a year since his heart finally failed, and the Archives are still the only place that feels like home in this giant fortress, the only place where I still feel my father\u2019s presence.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 63,
+      "text": "Spoken like the daughter of a scribe, Mom says quietly, and I see it\u2014the woman she was while Dad was alive. Softer. Kinder\u2026at least for her family.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 64,
+      "text": "I am the daughter of a scribe.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 65,
+      "text": "My back screams at me, so I let my pack slip from my shoulders, guiding it to the floor, and take my first full breath since leaving my room.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 66,
+      "text": "Mom blinks, and that softer woman is gone, leaving only the general.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 67,
+      "text": "You\u2019re the daughter of a rider, you are twenty years old, and today is Conscription Day. I let you finish your tutoring, but like I told you last spring, I will not watch one of my children enter the Scribe Quadrant, Violet.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 68,
+      "text": "Because scribes are so far beneath riders? I grumble, knowing perfectly well that riders are the top of the social and military hierarchy.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 69,
+      "text": "Yes! Her customary composure slips.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 70,
+      "text": "And if you dare walk into the tunnel toward the Scribe Quadrant today, I will rip you out by that ridiculous braid and put you on the parapet myself.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 71,
+      "text": "My stomach turns over.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "fearful"
+      },
+      "emotion_prompt": "fearful",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 72,
+      "text": "Dad wouldn\u2019t want this!",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "joyful"
+      },
+      "emotion_prompt": "joyful",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 73,
+      "text": "I loved your father, but he\u2019s dead, Mom says, as if giving the weather report.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 74,
+      "text": "I doubt he wants much these days.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 75,
+      "text": "I suck in a breath but keep my mouth shut. Arguing will get me nowhere. She\u2019s never listened to a damned thing I\u2019ve had to say before, and today is no different.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "somber"
+      },
+      "emotion_prompt": "somber",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 76,
+      "text": "Sending Violet into the Riders Quadrant is tantamount to a death sentence.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 77,
+      "text": "Guess Mira isn\u2019t done arguing. Mira\u2019s never done arguing with Mom, and the frustrating thing about it is that Mom has always respected her for it. Double standard for the win.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 78,
+      "text": "She\u2019s not strong enough, Mom! She\u2019s already broken her arm this year, she sprains some joint every other week, and she\u2019s not tall enough to mount any dragon big enough to keep her alive in a battle.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 79,
+      "text": "Seriously, Mira?",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 80,
+      "text": "What. The. Hell.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 81,
+      "text": "My fingernails bite into my palms as I curl my hands into fists.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 82,
+      "text": "Are you calling me weak?",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "fearful"
+      },
+      "emotion_prompt": "fearful",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 83,
+      "text": "No.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 84,
+      "text": "Just\u2026fragile.",
+      "speaker": "MIRA",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 85,
+      "text": "That\u2019s not any better.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 86,
+      "text": "Dragons don\u2019t bond fragile women. They incinerate them.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "angry"
+      },
+      "emotion_prompt": "angry",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 87,
+      "text": "So she\u2019s small.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 88,
+      "text": "Mom scans me up and down, taking in the generous fit of the cream belted tunic and pants I selected this morning for my potential execution.",
+      "speaker": "NARRATOR",
+      "metadata": {
+        "type": "narration",
+        "emotion": "tense"
+      },
+      "emotion_prompt": "tense",
+      "type": "narration"
+    },
+    {
+      "chunk_id": 89,
+      "text": "I snort.",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "tender"
+      },
+      "emotion_prompt": "tender",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 90,
+      "text": "Are we just listing my faults now?",
+      "speaker": "VIOLET",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "bitter"
+      },
+      "emotion_prompt": "bitter",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 91,
+      "text": "I never said it was a fault.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "neutral"
+      },
+      "emotion_prompt": "neutral",
+      "type": "dialogue"
+    },
+    {
+      "chunk_id": 92,
+      "text": "Mom turns to my sister. Mira, Violet deals with more pain before lunch than you do in an entire week.",
+      "speaker": "MOM",
+      "metadata": {
+        "type": "dialogue",
+        "emotion": "contemplative"
+      },
+      "emotion_prompt": "contemplative",
+      "type": "dialogue"
+    }
+  ]
+}

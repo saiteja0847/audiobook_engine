@@ -1,0 +1,1956 @@
+[
+  {
+    "chunk_id": 1,
+    "text": "Conscription Day is always the deadliest.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "ominous",
+      "start_paragraph": 1,
+      "end_paragraph": 1
+    },
+    "emotion_prompt": "somber"
+  },
+  {
+    "chunk_id": 2,
+    "text": "Maybe that's why the sunrise is especially beautiful this morning, because I know it might be my last.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "contemplative",
+      "start_paragraph": 1,
+      "end_paragraph": 1
+    },
+    "emotion_prompt": "contemplative"
+  },
+  {
+    "chunk_id": 3,
+    "text": "I tighten the straps of my heavy canvas rucksack and trudge up the wide staircase of the stone fortress I call home.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "neutral",
+      "start_paragraph": 2,
+      "end_paragraph": 2
+    },
+    "emotion_prompt": "neutral"
+  },
+  {
+    "chunk_id": 4,
+    "text": "[panting] My chest heaves with exertion, my lungs burning by the time I reach the stone corridor leading to General Sorrengail's office.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "tired",
+      "start_paragraph": 3,
+      "end_paragraph": 3
+    },
+    "emotion_prompt": "breathless"
+  },
+  {
+    "chunk_id": 5,
+    "text": "This is what six months of intense physical training has given me.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "sarcastic",
+      "start_paragraph": 4,
+      "end_paragraph": 4
+    },
+    "emotion_prompt": "dry sarcasm"
+  },
+  {
+    "chunk_id": 6,
+    "text": "The ability to barely climb six flights of stairs with a thirty-pound pack.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "sarcastic",
+      "start_paragraph": 4,
+      "end_paragraph": 4
+    },
+    "emotion_prompt": "dry sarcasm"
+  },
+  {
+    "chunk_id": 7,
+    "text": "[sighs] I'm so fucked.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "resigned",
+      "start_paragraph": 5,
+      "end_paragraph": 5
+    },
+    "emotion_prompt": "hopeless"
+  },
+  {
+    "chunk_id": 8,
+    "text": "Every Navarrian officer, whether they choose to be schooled as healers, scribes, infantry, or riders, is molded within these cruel walls over three years.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "serious",
+      "start_paragraph": 9,
+      "end_paragraph": 9
+    },
+    "emotion_prompt": "narrative"
+  },
+  {
+    "chunk_id": 9,
+    "text": "They are honed into weapons to secure our mountainous borders from the violent invasion attempts of the kingdom of Poromiel and their gryphon riders.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "serious",
+      "start_paragraph": 9,
+      "end_paragraph": 9
+    },
+    "emotion_prompt": "narrative"
+  },
+  {
+    "chunk_id": 10,
+    "text": "[shouting] You're sending her to die!",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "angry",
+      "character_relationship": "protective",
+      "start_paragraph": 11,
+      "end_paragraph": 11
+    },
+    "emotion_prompt": "shouting angry"
+  },
+  {
+    "chunk_id": 11,
+    "text": "a familiar voice thunders through the general's thick wooden door, and I gasp.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "surprised",
+      "start_paragraph": 11,
+      "end_paragraph": 11
+    },
+    "emotion_prompt": "tense"
+  },
+  {
+    "chunk_id": 12,
+    "text": "[desperate] She doesn't stand a chance,",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "desperate",
+      "character_relationship": "protective",
+      "start_paragraph": 14,
+      "end_paragraph": 14
+    },
+    "emotion_prompt": "loud and desperate"
+  },
+  {
+    "chunk_id": 13,
+    "text": "Mira shouts as I force the heavy door open and the weight of my pack shifts forward, nearly taking me down.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "tense",
+      "start_paragraph": 14,
+      "end_paragraph": 14
+    },
+    "emotion_prompt": "fast paced"
+  },
+  {
+    "chunk_id": 14,
+    "text": "Shit.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "panicked",
+      "start_paragraph": 15,
+      "end_paragraph": 15
+    },
+    "emotion_prompt": "cursing"
+  },
+  {
+    "chunk_id": 15,
+    "text": "Damn it, Mom, she can't even handle her rucksack,",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "frustrated",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 16,
+      "end_paragraph": 16
+    },
+    "emotion_prompt": "frustrated"
+  },
+  {
+    "chunk_id": 16,
+    "text": "[strained] I'm fine!",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "embarrassed",
+      "character_relationship": "sisterly",
+      "start_paragraph": 16,
+      "end_paragraph": 16
+    },
+    "emotion_prompt": "strained"
+  },
+  {
+    "chunk_id": 17,
+    "text": "[softly] Oh, Violet.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "concerned",
+      "character_relationship": "sisterly",
+      "start_paragraph": 20,
+      "end_paragraph": 20
+    },
+    "emotion_prompt": "soft and worried"
+  },
+  {
+    "chunk_id": 18,
+    "text": "[firm] You can't do this.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "pleading",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 24,
+      "end_paragraph": 24
+    },
+    "emotion_prompt": "firm"
+  },
+  {
+    "chunk_id": 19,
+    "text": "It's already done.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "cold",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 24,
+      "end_paragraph": 24
+    },
+    "emotion_prompt": "cold and authoritative"
+  },
+  {
+    "chunk_id": 20,
+    "text": "[seething] Then undo it.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "angry",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 27,
+      "end_paragraph": 27
+    },
+    "emotion_prompt": "angry whisper"
+  },
+  {
+    "chunk_id": 21,
+    "text": "She's spent her whole life training to become a scribe. She wasn't raised to be a rider.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "pleading",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 27,
+      "end_paragraph": 27
+    },
+    "emotion_prompt": "urgent"
+  },
+  {
+    "chunk_id": 22,
+    "text": "[mocking] Well, she certainly isn't you, is she, Lieutenant Sorrengail?",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "mocking",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 28,
+      "end_paragraph": 28
+    },
+    "emotion_prompt": "sarcastic"
+  },
+  {
+    "chunk_id": 23,
+    "text": "[scoff] Pale skin, pale eyes, pale hair.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "critical",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 38,
+      "end_paragraph": 38
+    },
+    "emotion_prompt": "critical"
+  },
+  {
+    "chunk_id": 24,
+    "text": "It's like that fever stole all your coloring along with your strength.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "disappointed",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 39,
+      "end_paragraph": 39
+    },
+    "emotion_prompt": "disappointed"
+  },
+  {
+    "chunk_id": 25,
+    "text": "I told him not to keep you in that library.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "annoyed",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 40,
+      "end_paragraph": 40
+    },
+    "emotion_prompt": "bitter"
+  },
+  {
+    "chunk_id": 26,
+    "text": "I love that library,",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "defensive",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 41,
+      "end_paragraph": 41
+    },
+    "emotion_prompt": "firm"
+  },
+  {
+    "chunk_id": 27,
+    "text": "[softly] Spoken like the daughter of a scribe,",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "soft",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 42,
+      "end_paragraph": 42
+    },
+    "emotion_prompt": "quiet and nostalgic"
+  },
+  {
+    "chunk_id": 28,
+    "text": "I am the daughter of a scribe.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "proud",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 43,
+      "end_paragraph": 43
+    },
+    "emotion_prompt": "proud"
+  },
+  {
+    "chunk_id": 29,
+    "text": "You\u2019re the daughter of a rider, you are twenty years old, and today is Conscription Day.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "commanding",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 46,
+      "end_paragraph": 46
+    },
+    "emotion_prompt": "stern"
+  },
+  {
+    "chunk_id": 30,
+    "text": "[grumbling] Because scribes are so far beneath riders?",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "sarcastic",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 47,
+      "end_paragraph": 47
+    },
+    "emotion_prompt": "sarcastic"
+  },
+  {
+    "chunk_id": 31,
+    "text": "[shouting] Yes!",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "angry",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 48,
+      "end_paragraph": 48
+    },
+    "emotion_prompt": "shouting"
+  },
+  {
+    "chunk_id": 32,
+    "text": "And if you dare walk into the tunnel toward the Scribe Quadrant today, I will rip you out by that ridiculous braid and put you on the parapet myself.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "threatening",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 49,
+      "end_paragraph": 49
+    },
+    "emotion_prompt": "threatening"
+  },
+  {
+    "chunk_id": 33,
+    "text": "My stomach turns over.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "sick",
+      "start_paragraph": 50,
+      "end_paragraph": 50
+    },
+    "emotion_prompt": "uneasy"
+  },
+  {
+    "chunk_id": 34,
+    "text": "Dad wouldn\u2019t want this!",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "angry",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 50,
+      "end_paragraph": 50
+    },
+    "emotion_prompt": "passionate"
+  },
+  {
+    "chunk_id": 35,
+    "text": "I loved your father, but he\u2019s dead.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "cold",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 51,
+      "end_paragraph": 51
+    },
+    "emotion_prompt": "detached"
+  },
+  {
+    "chunk_id": 36,
+    "text": "[shouting] She\u2019s not strong enough, Mom!",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "desperate",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 56,
+      "end_paragraph": 56
+    },
+    "emotion_prompt": "shouting"
+  },
+  {
+    "chunk_id": 37,
+    "text": "Seriously, Mira?",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "offended",
+      "character_relationship": "sisterly",
+      "start_paragraph": 57,
+      "end_paragraph": 57
+    },
+    "emotion_prompt": "annoyed"
+  },
+  {
+    "chunk_id": 38,
+    "text": "[angry] Are you calling me weak?",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "angry",
+      "character_relationship": "sisterly",
+      "start_paragraph": 59,
+      "end_paragraph": 59
+    },
+    "emotion_prompt": "confrontational"
+  },
+  {
+    "chunk_id": 39,
+    "text": "[hesitant] No.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "soft",
+      "character_relationship": "sisterly",
+      "start_paragraph": 59,
+      "end_paragraph": 59
+    },
+    "emotion_prompt": "gentle"
+  },
+  {
+    "chunk_id": 40,
+    "text": "Just... fragile.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "sad",
+      "character_relationship": "sisterly",
+      "start_paragraph": 59,
+      "end_paragraph": 59
+    },
+    "emotion_prompt": "sad"
+  },
+  {
+    "chunk_id": 41,
+    "text": "That\u2019s not any better.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "annoyed",
+      "character_relationship": "sisterly",
+      "start_paragraph": 59,
+      "end_paragraph": 59
+    },
+    "emotion_prompt": "dry"
+  },
+  {
+    "chunk_id": 42,
+    "text": "Get. Out. Lieutenant.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "dangerous",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 70,
+      "end_paragraph": 70
+    },
+    "emotion_prompt": "slow and dangerous"
+  },
+  {
+    "chunk_id": 43,
+    "text": "Mira straightens her posture, nods once, and pivots with military precision, then strides for the door without another word.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "tense",
+      "start_paragraph": 71,
+      "end_paragraph": 71
+    },
+    "emotion_prompt": "neutral"
+  },
+  {
+    "chunk_id": 44,
+    "text": "It\u2019s the first time Mom and I have been alone in months.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "nervous",
+      "start_paragraph": 72,
+      "end_paragraph": 72
+    },
+    "emotion_prompt": "tense"
+  },
+  {
+    "chunk_id": 45,
+    "text": "You scored in the top quarter for speed and agility during the entrance exam. You\u2019ll do just fine.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "businesslike",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 74,
+      "end_paragraph": 74
+    },
+    "emotion_prompt": "calm"
+  },
+  {
+    "chunk_id": 46,
+    "text": "All Sorrengails do just fine.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "proud",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 74,
+      "end_paragraph": 74
+    },
+    "emotion_prompt": "proud"
+  },
+  {
+    "chunk_id": 47,
+    "text": "She skims the backs of her fingers down my cheek, barely grazing my skin.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "gentle",
+      "start_paragraph": 75,
+      "end_paragraph": 75
+    },
+    "emotion_prompt": "soft"
+  },
+  {
+    "chunk_id": 48,
+    "text": "[whispering] So much like your father.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "sad",
+      "character_relationship": "mother_daughter",
+      "start_paragraph": 76,
+      "end_paragraph": 76
+    },
+    "emotion_prompt": "whispering sad"
+  },
+  {
+    "chunk_id": 49,
+    "text": "[clearing throat] I won\u2019t be able to acknowledge you for the next three years.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "formal",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 78,
+      "end_paragraph": 78
+    },
+    "emotion_prompt": "formal"
+  },
+  {
+    "chunk_id": 50,
+    "text": "Since, as commanding general of Basgiath, I\u2019ll be your far superior officer.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "formal",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 79,
+      "end_paragraph": 79
+    },
+    "emotion_prompt": "authoritative"
+  },
+  {
+    "chunk_id": 51,
+    "text": "I know.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "resigned",
+      "character_relationship": "daughter_mother",
+      "start_paragraph": 79,
+      "end_paragraph": 79
+    },
+    "emotion_prompt": "quiet"
+  },
+  {
+    "chunk_id": 52,
+    "text": "Good luck, Candidate Sorrengail.",
+    "speaker": "General Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "dismissive",
+      "character_relationship": "commanding_officer",
+      "start_paragraph": 84,
+      "end_paragraph": 84
+    },
+    "emotion_prompt": "neutral"
+  },
+  {
+    "chunk_id": 53,
+    "text": "Thank you, General.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "formal",
+      "character_relationship": "subordinate_officer",
+      "start_paragraph": 85,
+      "end_paragraph": 85
+    },
+    "emotion_prompt": "formal"
+  },
+  {
+    "chunk_id": 54,
+    "text": "[whispering] She\u2019s batshit crazy,",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "disbelief",
+      "character_relationship": "sisterly",
+      "start_paragraph": 86,
+      "end_paragraph": 86
+    },
+    "emotion_prompt": "whispering"
+  },
+  {
+    "chunk_id": 55,
+    "text": "Mira says from the center of the hallway, right between where two guards are positioned.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "neutral",
+      "start_paragraph": 86,
+      "end_paragraph": 86
+    },
+    "emotion_prompt": "neutral"
+  },
+  {
+    "chunk_id": 56,
+    "text": "[whispering] They\u2019ll tell her you said that.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "warning",
+      "character_relationship": "sisterly",
+      "start_paragraph": 87,
+      "end_paragraph": 87
+    },
+    "emotion_prompt": "whispering"
+  },
+  {
+    "chunk_id": 57,
+    "text": "[gritting teeth] Like they don\u2019t already know.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "annoyed",
+      "character_relationship": "sisterly",
+      "start_paragraph": 87,
+      "end_paragraph": 87
+    },
+    "emotion_prompt": "annoyed"
+  },
+  {
+    "chunk_id": 58,
+    "text": "[sighs] She had my entire life boxed.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "sad",
+      "start_paragraph": 91,
+      "end_paragraph": 91
+    },
+    "emotion_prompt": "sad"
+  },
+  {
+    "chunk_id": 59,
+    "text": "Can you use a sword?",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "serious",
+      "character_relationship": "mentor",
+      "start_paragraph": 96,
+      "end_paragraph": 96
+    },
+    "emotion_prompt": "serious"
+  },
+  {
+    "chunk_id": 60,
+    "text": "I shake my head.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "neutral",
+      "start_paragraph": 97,
+      "end_paragraph": 97
+    },
+    "emotion_prompt": "neutral"
+  },
+  {
+    "chunk_id": 61,
+    "text": "Too heavy. I\u2019m pretty quick with daggers, though.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "confident",
+      "character_relationship": "sisterly",
+      "start_paragraph": 97,
+      "end_paragraph": 97
+    },
+    "emotion_prompt": "confident"
+  },
+  {
+    "chunk_id": 62,
+    "text": "[urgent] You\u2019re carrying way too much, and your boots are a death trap.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "urgent",
+      "character_relationship": "mentor",
+      "start_paragraph": 103,
+      "end_paragraph": 103
+    },
+    "emotion_prompt": "fast paced"
+  },
+  {
+    "chunk_id": 63,
+    "text": "[shouting] Hey, I can only take what I can carry, and I want those!",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "protesting",
+      "character_relationship": "sisterly",
+      "start_paragraph": 105,
+      "end_paragraph": 105
+    },
+    "emotion_prompt": "shouting"
+  },
+  {
+    "chunk_id": 64,
+    "text": "Are you willing to die for it?",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "deadly_serious",
+      "character_relationship": "mentor",
+      "start_paragraph": 107,
+      "end_paragraph": 107
+    },
+    "emotion_prompt": "stern"
+  },
+  {
+    "chunk_id": 65,
+    "text": "You\u2019ll fall. You\u2019ll die. Now, are you going to listen to me?",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "intense",
+      "character_relationship": "mentor",
+      "start_paragraph": 109,
+      "end_paragraph": 109
+    },
+    "emotion_prompt": "intense"
+  },
+  {
+    "chunk_id": 66,
+    "text": "Ditch the books. Dad can\u2019t save you. He tried. I tried.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "desperate",
+      "character_relationship": "sisterly",
+      "start_paragraph": 119,
+      "end_paragraph": 119
+    },
+    "emotion_prompt": "urgent"
+  },
+  {
+    "chunk_id": 67,
+    "text": "Decide, Violet. Are you going to die a scribe? Or live as a rider?",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "challenging",
+      "character_relationship": "mentor",
+      "start_paragraph": 119,
+      "end_paragraph": 119
+    },
+    "emotion_prompt": "challenging"
+  },
+  {
+    "chunk_id": 68,
+    "text": "[annoyed] You\u2019re a pain in the ass.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "annoyed",
+      "character_relationship": "sisterly",
+      "start_paragraph": 120,
+      "end_paragraph": 120
+    },
+    "emotion_prompt": "annoyed"
+  },
+  {
+    "chunk_id": 69,
+    "text": "What\u2019s that one for?",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "curious",
+      "character_relationship": "sisterly",
+      "start_paragraph": 122,
+      "end_paragraph": 122
+    },
+    "emotion_prompt": "curious"
+  },
+  {
+    "chunk_id": 70,
+    "text": "[coldly] Killing people.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "cold",
+      "character_relationship": "sisterly",
+      "start_paragraph": 122,
+      "end_paragraph": 122
+    },
+    "emotion_prompt": "cold"
+  },
+  {
+    "chunk_id": 71,
+    "text": "[laughing] Good. You can keep that one.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "approving",
+      "character_relationship": "sisterly",
+      "start_paragraph": 124,
+      "end_paragraph": 124
+    },
+    "emotion_prompt": "satisfied"
+  },
+  {
+    "chunk_id": 72,
+    "text": "Gods, this is really happening.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "scared",
+      "start_paragraph": 129,
+      "end_paragraph": 129
+    },
+    "emotion_prompt": "anxious"
+  },
+  {
+    "chunk_id": 73,
+    "text": "I had it specially made for you with Teine\u2019s scales sewn in, so be careful with it.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "caring",
+      "character_relationship": "sisterly",
+      "start_paragraph": 142,
+      "end_paragraph": 142
+    },
+    "emotion_prompt": "gentle"
+  },
+  {
+    "chunk_id": 74,
+    "text": "You\u2019re the smartest woman I know. Don\u2019t forget that. Your brain is your best weapon.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "encouraging",
+      "character_relationship": "sisterly",
+      "start_paragraph": 154,
+      "end_paragraph": 154
+    },
+    "emotion_prompt": "encouraging"
+  },
+  {
+    "chunk_id": 75,
+    "text": "[intense] Outsmart them, Violet. Do you hear me?",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "intense",
+      "character_relationship": "sisterly",
+      "start_paragraph": 154,
+      "end_paragraph": 154
+    },
+    "emotion_prompt": "intense"
+  },
+  {
+    "chunk_id": 76,
+    "text": "[shaky breath] I love you, Violet. Remember everything I\u2019ve told you.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "emotional",
+      "character_relationship": "sisterly",
+      "start_paragraph": 175,
+      "end_paragraph": 175
+    },
+    "emotion_prompt": "sad and loving"
+  },
+  {
+    "chunk_id": 77,
+    "text": "I\u2019ll be all right,",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "reassuring",
+      "character_relationship": "sisterly",
+      "start_paragraph": 176,
+      "end_paragraph": 176
+    },
+    "emotion_prompt": "reassuring"
+  },
+  {
+    "chunk_id": 78,
+    "text": "[fearful whisper] Stay the hell away from Xaden Riorson.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "fearful",
+      "character_relationship": "mentor",
+      "start_paragraph": 228,
+      "end_paragraph": 228
+    },
+    "emotion_prompt": "fearful"
+  },
+  {
+    "chunk_id": 79,
+    "text": "He\u2019s a third-year, and he will kill you the second he finds out who you are.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "serious",
+      "character_relationship": "mentor",
+      "start_paragraph": 230,
+      "end_paragraph": 230
+    },
+    "emotion_prompt": "dark and serious"
+  },
+  {
+    "chunk_id": 80,
+    "text": "[hushed] All the children of the leaders were conscripted as punishment for their parents\u2019 crimes,",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "informative",
+      "character_relationship": "mentor",
+      "start_paragraph": 232,
+      "end_paragraph": 232
+    },
+    "emotion_prompt": "hushed"
+  },
+  {
+    "chunk_id": 81,
+    "text": "[smiling] Don\u2019t die, Violet. I\u2019d hate to be an only child.",
+    "speaker": "Mira Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "joking_sad",
+      "character_relationship": "sisterly",
+      "start_paragraph": 252,
+      "end_paragraph": 252
+    },
+    "emotion_prompt": "half-joking"
+  },
+  {
+    "chunk_id": 82,
+    "text": "[brightly] I\u2019m Rhiannon Matthias, by the way.",
+    "speaker": "Rhiannon Matthias",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "friendly",
+      "character_relationship": "acquaintance",
+      "start_paragraph": 267,
+      "end_paragraph": 267
+    },
+    "emotion_prompt": "bright and friendly"
+  },
+  {
+    "chunk_id": 83,
+    "text": "[nervous] Violet.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "tense",
+      "character_relationship": "acquaintance",
+      "start_paragraph": 267,
+      "end_paragraph": 267
+    },
+    "emotion_prompt": "nervous"
+  },
+  {
+    "chunk_id": 84,
+    "text": "[excited] I can\u2019t fucking wait.",
+    "speaker": "Rhiannon Matthias",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "excited",
+      "character_relationship": "friendly",
+      "start_paragraph": 272,
+      "end_paragraph": 272
+    },
+    "emotion_prompt": "excited"
+  },
+  {
+    "chunk_id": 85,
+    "text": "[urgent whisper] Let me see your boots,",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "urgent",
+      "character_relationship": "friendly",
+      "start_paragraph": 298,
+      "end_paragraph": 298
+    },
+    "emotion_prompt": "urgent whisper"
+  },
+  {
+    "chunk_id": 86,
+    "text": "It will hurt like hell, but I want you to take my left boot. Trade with me.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "serious",
+      "character_relationship": "friendly",
+      "start_paragraph": 304,
+      "end_paragraph": 304
+    },
+    "emotion_prompt": "serious"
+  },
+  {
+    "chunk_id": 87,
+    "text": "These are rider boots. They\u2019ll grip the stone better.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "informative",
+      "character_relationship": "friendly",
+      "start_paragraph": 307,
+      "end_paragraph": 307
+    },
+    "emotion_prompt": "helpful"
+  },
+  {
+    "chunk_id": 88,
+    "text": "[surprised] You\u2019re willing to trade a boot?",
+    "speaker": "Rhiannon Matthias",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "disbelief",
+      "character_relationship": "friendly",
+      "start_paragraph": 308,
+      "end_paragraph": 308
+    },
+    "emotion_prompt": "surprised"
+  },
+  {
+    "chunk_id": 89,
+    "text": "[rushing] Just until we get on the other side.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "hurried",
+      "character_relationship": "friendly",
+      "start_paragraph": 309,
+      "end_paragraph": 309
+    },
+    "emotion_prompt": "fast"
+  },
+  {
+    "chunk_id": 90,
+    "text": "The third turns in my direction and my heart simply\u2026stops.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "narration",
+      "emotion": "shocked",
+      "start_paragraph": 326,
+      "end_paragraph": 326
+    },
+    "emotion_prompt": "shocked"
+  },
+  {
+    "chunk_id": 91,
+    "text": "[breathless] He\u2019s the most exquisite man I\u2019ve ever seen.",
+    "speaker": "NARRATOR",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "internal_monologue",
+      "emotion": "awe",
+      "start_paragraph": 330,
+      "end_paragraph": 330
+    },
+    "emotion_prompt": "breathless"
+  },
+  {
+    "chunk_id": 92,
+    "text": "[challenging] You ready for this, Sorrengail?",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "challenging",
+      "character_relationship": "hostile",
+      "start_paragraph": 334,
+      "end_paragraph": 334
+    },
+    "emotion_prompt": "dark and challenging"
+  },
+  {
+    "chunk_id": 93,
+    "text": "[terrified whisper] Oh shit,",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "terrified",
+      "character_relationship": "hostile",
+      "start_paragraph": 337,
+      "end_paragraph": 337
+    },
+    "emotion_prompt": "whispering terrified"
+  },
+  {
+    "chunk_id": 94,
+    "text": "[slowly] Sorrengail?",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "intimidating",
+      "character_relationship": "hostile",
+      "start_paragraph": 338,
+      "end_paragraph": 338
+    },
+    "emotion_prompt": "slow and deep"
+  },
+  {
+    "chunk_id": 95,
+    "text": "[accusatory] You\u2019re General Sorrengail\u2019s youngest.",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "accusatory",
+      "character_relationship": "hostile",
+      "start_paragraph": 342,
+      "end_paragraph": 342
+    },
+    "emotion_prompt": "cold"
+  },
+  {
+    "chunk_id": 96,
+    "text": "[shaky but brave] You\u2019re Fen Riorson\u2019s son,",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "brave",
+      "character_relationship": "hostile",
+      "start_paragraph": 342,
+      "end_paragraph": 342
+    },
+    "emotion_prompt": "shaky but brave"
+  },
+  {
+    "chunk_id": 97,
+    "text": "[seething] Your mother captured my father and oversaw his execution.",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "hateful",
+      "character_relationship": "hostile",
+      "start_paragraph": 350,
+      "end_paragraph": 350
+    },
+    "emotion_prompt": "seething"
+  },
+  {
+    "chunk_id": 98,
+    "text": "[angry] Your father killed my older brother. Seems like we\u2019re even.",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "angry",
+      "character_relationship": "hostile",
+      "start_paragraph": 351,
+      "end_paragraph": 351
+    },
+    "emotion_prompt": "angry"
+  },
+  {
+    "chunk_id": 99,
+    "text": "[dismissive] Hardly.",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "dismissive",
+      "character_relationship": "hostile",
+      "start_paragraph": 351,
+      "end_paragraph": 351
+    },
+    "emotion_prompt": "dark"
+  },
+  {
+    "chunk_id": 100,
+    "text": "[defiant] Are you going to kill me?",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "confrontational",
+      "character_relationship": "hostile",
+      "start_paragraph": 361,
+      "end_paragraph": 361
+    },
+    "emotion_prompt": "defiant"
+  },
+  {
+    "chunk_id": 101,
+    "text": "[screaming] Pull yourself up, Dylan!",
+    "speaker": "Rhiannon Matthias",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "screaming",
+      "character_relationship": "friendly",
+      "start_paragraph": 364,
+      "end_paragraph": 364
+    },
+    "emotion_prompt": "screaming"
+  },
+  {
+    "chunk_id": 102,
+    "text": "[screaming] Oh gods!",
+    "speaker": "Violet Sorrengail",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "screaming",
+      "character_relationship": "witness",
+      "start_paragraph": 364,
+      "end_paragraph": 364
+    },
+    "emotion_prompt": "screaming"
+  },
+  {
+    "chunk_id": 103,
+    "text": "[coldly] Why would I waste my energy killing you when the parapet will do it for me?",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "cruel",
+      "character_relationship": "hostile",
+      "start_paragraph": 367,
+      "end_paragraph": 367
+    },
+    "emotion_prompt": "cruel and smooth"
+  },
+  {
+    "chunk_id": 104,
+    "text": "[wicked smile] Your turn.",
+    "speaker": "Xaden Riorson",
+    "tts_config": {
+      "provider": "mlx-cosyvoice3",
+      "inference_method": "mlx",
+      "speed": 1
+    },
+    "audio_effects": [],
+    "metadata": {
+      "type": "dialogue",
+      "emotion": "wicked",
+      "character_relationship": "hostile",
+      "start_paragraph": 368,
+      "end_paragraph": 368
+    },
+    "emotion_prompt": "wicked smile"
+  }
+]

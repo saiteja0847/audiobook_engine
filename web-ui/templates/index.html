@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>📚 Audiobook Engine</h1>
+                <p class="subtitle">Multi-Provider TTS with Audio Effects</p>
+            </div>
+            <button id="stop-server" class="btn btn-danger">Stop Server</button>
+        </header>
+
+        <main>
+            <section class="projects-section">
+                <div class="section-header">
+                    <h2>Projects</h2>
+                    <div>
+                        <button id="create-project" class="btn btn-primary">+ Create New Project</button>
+                        <button id="refresh-projects" class="btn btn-secondary">Refresh</button>
+                    </div>
+                </div>
+
+                <div id="projects-list" class="projects-list">
+                    <div class="loading">Loading projects...</div>
+                </div>
+            </section>
+
+            <!-- Create Project Modal -->
+            <div id="create-project-modal" class="modal" style="display: none;">
+                <div class="modal-content" style="max-width: 600px;">
+                    <div class="modal-header">
+                        <h2>Create New Project</h2>
+                        <button class="modal-close">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="project-name">Project Name *</label>
+                            <input type="text" id="project-name" placeholder="e.g., Fourth Wing" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-slug">Project Slug (auto-generated)</label>
+                            <input type="text" id="project-slug" placeholder="e.g., fourth-wing" readonly style="background: var(--bg-secondary);">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="book-file">Book File (TXT) *</label>
+                            <input type="file" id="book-file" accept=".txt" required>
+                            <small style="color: var(--text-secondary);">Upload a plain text file (.txt)</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-description">Description (optional)</label>
+                            <textarea id="project-description" rows="3" placeholder="Brief description of the book..."></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary modal-close">Cancel</button>
+                        <button id="create-project-submit" class="btn btn-primary">Create Project</button>
+                    </div>
+                </div>
+            </div>
+
+            <section class="info-section">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>TTS Providers</h3>
+                        <div id="providers-list" class="providers-list">
+                            <div class="loading-small">Loading...</div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Audio Effects</h3>
+                        <div id="effects-list" class="effects-list">
+                            <div class="loading-small">Loading...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Audiobook Engine v1.0 | Port 5002</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProjects();
+            loadProviders();
+            loadEffects();
+
+            // Refresh button
+            document.getElementById('refresh-projects').addEventListener('click', loadProjects);
+
+            // Create project button
+            document.getElementById('create-project').addEventListener('click', openCreateProjectModal);
+
+            // Modal close buttons
+            document.querySelectorAll('#create-project-modal .modal-close').forEach(btn => {
+                btn.addEventListener('click', closeCreateProjectModal);
+            });
+
+            // Auto-generate slug from name
+            document.getElementById('project-name').addEventListener('input', (e) => {
+                const slug = e.target.value
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, '-')
+                    .replace(/^-|-$/g, '');
+                document.getElementById('project-slug').value = slug;
+            });
+
+            // Create project submit
+            document.getElementById('create-project-submit').addEventListener('click', createProject);
+        });
+
+        function openCreateProjectModal() {
+            document.getElementById('create-project-modal').style.display = 'flex';
+        }
+
+        function closeCreateProjectModal() {
+            document.getElementById('create-project-modal').style.display = 'none';
+            // Reset form
+            document.getElementById('project-name').value = '';
+            document.getElementById('project-slug').value = '';
+            document.getElementById('book-file').value = '';
+            document.getElementById('project-description').value = '';
+        }
+
+        async function createProject() {
+            const name = document.getElementById('project-name').value.trim();
+            const slug = document.getElementById('project-slug').value.trim();
+            const fileInput = document.getElementById('book-file');
+            const description = document.getElementById('project-description').value.trim();
+
+            // Validation
+            if (!name) {
+                showNotification('Please enter a project name', 'error');
+                return;
+            }
+
+            if (!slug) {
+                showNotification('Project slug is required', 'error');
+                return;
+            }
+
+            if (!fileInput.files || fileInput.files.length === 0) {
+                showNotification('Please select a book file', 'error');
+                return;
+            }
+
+            const file = fileInput.files[0];
+            if (!file.name.endsWith('.txt')) {
+                showNotification('Book file must be a .txt file', 'error');
+                return;
+            }
+
+            // Disable button
+            const submitBtn = document.getElementById('create-project-submit');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Creating...';
+
+            try {
+                // Read file content
+                const bookContent = await file.text();
+
+                // Create project via API
+                const response = await fetch('/api/projects', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        slug: slug,
+                        book_content: bookContent,
+                        description: description
+                    })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to create project');
+                }
+
+                showNotification('Project created successfully!', 'success');
+                closeCreateProjectModal();
+                loadProjects();
+
+            } catch (error) {
+                console.error('Error creating project:', error);
+                showNotification(error.message, 'error');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Create Project';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "phase1_variables": {
+    "BOOK_TITLE": "Title of the book",
+    "GENRE": "Genre (e.g., Fantasy, Sci-Fi, Romance)",
+    "CHAPTER_RANGE": "Range of chapters being analyzed (e.g., 'Chapters 1-5', 'Full Book')",
+    "MODEL_NAME": "AI model used for generation (e.g., 'gemini-1.5-pro')"
+  },
+  "phase2_variables": {
+    "BOOK_TITLE": "Title of the book",
+    "REGISTRY_JSON": "Complete character registry JSON from Phase 1",
+    "CONTEXT_TEXT": "Previous 100 words for continuity",
+    "PROCESSING_TEXT": "Current 700-800 words to be chunked",
+    "SEGMENT_NUMBER": "Current segment number",
+    "MODEL_NAME": "AI model used for generation (e.g., 'claude-3-5-sonnet')"
+  },
+  "usage_instructions": {
+    "phase1": "Replace {{VARIABLE}} in prompt files with actual values before API call",
+    "phase2": "Replace {{VARIABLE}} in prompt files with actual values before API call",
+    "example": "Replace {{BOOK_TITLE}} with 'Fourth Wing'"
+  }
+}

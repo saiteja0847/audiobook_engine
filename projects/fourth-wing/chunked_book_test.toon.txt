@@ -1,0 +1,95 @@
+# Segment 1
+MOOD|tense;fearful;bitter
+1|Conscription Day is always the deadliest.|NARRATOR|N|tense
+2|Maybe that’s why the sunrise is especially beautiful this morning—because I know it might be my last.|NARRATOR|N|tense
+3|I tighten the straps of my heavy canvas rucksack and trudge up the wide staircase of the stone fortress I call home.|NARRATOR|N|tense
+4|My chest heaves with exertion, my lungs burning by the time I reach the stone corridor leading to General Sorrengail’s office.|NARRATOR|N|tense
+5|This is what six months of intense physical training has given me—the ability to barely climb six flights of stairs with a thirty-pound pack.|NARRATOR|N|tense
+6|I’m so fucked.|NARRATOR|N|bitter
+7|The thousands of twenty-year-olds waiting outside the gate to enter their chosen quadrant for service are the smartest and strongest in Navarre.|NARRATOR|N|tense
+8|Hundreds of them have been preparing for the Riders Quadrant, the chance to become one of the elite, since birth.|NARRATOR|N|tense
+9|I’ve had exactly six months.|NARRATOR|N|tense
+10|The expressionless guards lining the wide hallway at the top of the landing avoid my eyes as I pass, but that’s nothing new.|NARRATOR|N|tense
+11|Besides, being ignored is the best possible scenario for me.|NARRATOR|N|tense
+12|Basgiath War College isn’t known for being kind to…well, anyone, even those of us whose mothers are in command.|NARRATOR|N|tense
+13|Every Navarrian officer, whether they choose to be schooled as healers, scribes, infantry, or riders, is molded within these cruel walls over three years, honed into weapons to secure our mountainous borders from the violent invasion attempts of the kingdom of Poromiel and their gryphon riders.|NARRATOR|N|tense
+14|The weak don’t survive here, especially not in the Riders Quadrant.|NARRATOR|N|tense
+15|"You’re sending her to die!" a familiar voice thunders through the general’s thick wooden door, and I gasp.|NARRATOR|N|fearful
+16|There’s only one woman on the Continent foolish enough to raise her voice to the general, but she’s supposed to be on the border with the Eastern Wing.|NARRATOR|N|fearful
+17|Mira.|NARRATOR|N|fearful
+18|There’s a muffled response from the office, and I reach for the door handle.|NARRATOR|N|tense
+19|"She doesn’t stand a chance," Mira shouts as I force the heavy door open and the weight of my pack shifts forward, nearly taking me down.|MIRA|D|angry
+20|Shit.|NARRATOR|N|bitter
+21|The general curses from behind her desk, and I grab onto the back of the crimson-upholstered couch to catch my balance.|NARRATOR|N|fearful
+22|"Damn it, Mom, she can’t even handle her rucksack," Mira snaps, rushing to my side.|MIRA|D|angry
+23|"I’m fine!"|VIOLET|D|bitter
+24|My cheeks heat with mortification, and I force myself upright.|NARRATOR|N|fearful
+25|She’s been back for five minutes and is already trying to save me.|NARRATOR|N|bitter
+26|Because you need saving, you fool.|NARRATOR|N|bitter
+27|I don’t want this.|NARRATOR|N|fearful
+28|I don’t want any part of this Riders Quadrant shit.|NARRATOR|N|bitter
+29|It’s not like I have a death wish.|NARRATOR|N|bitter
+30|I would have been better off failing the admission test to Basgiath and going straight to the army with the majority of conscripts.|NARRATOR|N|bitter
+31|But I can handle my rucksack, and I will handle myself.|NARRATOR|N|tense
+32|"Oh, Violet."|MIRA|D|tender
+33|Worried brown eyes look down at me as strong hands brace my shoulders.|NARRATOR|N|tender
+34|"Hi, Mira."|VIOLET|D|tender
+
+# Segment 2
+MOOD|tense;fearful;bitter
+35|She might be here to say her goodbyes, but I’m just glad to see my sister for the first time in years.|NARRATOR|N|tense
+36|Her eyes soften, and her fingers flex on my shoulders like she might pull me into a hug, but she steps back and turns to stand at my side, facing our mother.|NARRATOR|N|tense
+37|"You can’t do this."|MIRA|D|fearful
+38|"It’s already done."|MOM|D|neutral
+39|Mom shrugs, the lines of her fitted black uniform rising and falling with the motion.|NARRATOR|N|neutral
+40|I scoff. So much for the hope of a reprieve. Not that I ever should have expected, or even hoped for, an ounce of mercy from a woman who’s been made famous for her lack of it.|NARRATOR|N|bitter
+41|"Then undo it,"|MIRA|D|angry
+42|"She’s spent her whole life training to become a scribe. She wasn’t raised to be a rider."|MIRA|D|bitter
+43|"Well, she certainly isn’t you, is she, Lieutenant Sorrengail?"|MOM|D|tense
+44|Mom braces her hands on the immaculate surface of her desk and leans in slightly as she stands, looking us over with narrowed, appraising eyes that mirror the dragons’ carved into the furniture’s massive legs.|NARRATOR|N|tense
+45|I don’t need the prohibited power of mind reading to know exactly what she sees.|NARRATOR|N|contemplative
+46|At twenty-six years old, Mira’s a younger version of our mother. She’s tall, with strong, powerful muscles toned from years of sparring and hundreds of hours spent on the back of her dragon.|NARRATOR|N|contemplative
+47|Her skin practically glows with health, and her golden-brown hair is sheared short for combat in the same style as Mom’s.|NARRATOR|N|contemplative
+48|But more than looks, she carries the same arrogance, the unwavering conviction that she belongs in the sky.|NARRATOR|N|tense
+49|She’s a rider through and through. She’s everything I’m not, and the disapproving shake of Mom’s head says she agrees.|NARRATOR|N|fearful
+50|I’m too short. Too frail. What curves I do have should be muscle, and my traitorous body makes me embarrassingly vulnerable.|NARRATOR|N|somber
+51|Mom walks toward us, her polished black boots gleaming in the mage lights that flicker from the sconces.|NARRATOR|N|tense
+52|She picks up the end of my long braid, scoffs at the section just above my shoulders where the brown strands start to lose their warmth of color and slowly fade to a steely, metallic silver by the ends, and then drops it.|NARRATOR|N|tense
+53|"Pale skin, pale eyes, pale hair."|MOM|D|fearful
+54|Her gaze siphons every ounce of my confidence down to the marrow in my bones.|NARRATOR|N|fearful
+55|"It’s like that fever stole all your coloring along with your strength."|MOM|D|bitter
+56|Grief flashes through her eyes and her brows furrow.|NARRATOR|N|somber
+57|"I told him not to keep you in that library."|MOM|D|bitter
+58|It’s not the first time I’ve heard her curse the sickness that nearly killed her while she was pregnant with me or the library Dad made my second home once she’d been stationed here at Basgiath as an instructor and he as a scribe.|NARRATOR|N|tense
+59|"I love that library,"|VIOLET|D|tender
+
+# Segment 3
+MOOD|tense;fearful;bitter
+60|It’s been more than a year since his heart finally failed, and the Archives are still the only place that feels like home in this giant fortress, the only place where I still feel my father’s presence.|NARRATOR|N|contemplative
+61|“Spoken like the daughter of a scribe,” Mom says quietly, and I see it—the woman she was while Dad was alive. Softer. Kinder…at least for her family.|MOM|D|tense
+62|“I am the daughter of a scribe.” My back screams at me, so I let my pack slip from my shoulders, guiding it to the floor, and take my first full breath since leaving my room.|VIOLET|D|tense
+63|Mom blinks, and that softer woman is gone, leaving only the general.|NARRATOR|N|fearful
+64|“You’re the daughter of a rider, you are twenty years old, and today is Conscription Day. I let you finish your tutoring, but like I told you last spring, I will not watch one of my children enter the Scribe Quadrant, Violet.”|MOM|D|bitter
+65|“Because scribes are so far beneath riders?” I grumble, knowing perfectly well that riders are the top of the social and military hierarchy.|VIOLET|D|bitter
+66|“Yes!” Her customary composure slips.|MOM|D|angry
+67|“And if you dare walk into the tunnel toward the Scribe Quadrant today, I will rip you out by that ridiculous braid and put you on the parapet myself.”|MOM|D|fearful
+68|My stomach turns over.|VIOLET|N|tense
+69|“Dad wouldn’t want this!” Mira argues, color flushing up her neck.|MIRA|D|fearful
+70|“I loved your father, but he’s dead,” Mom says, as if giving the weather report.|MOM|D|neutral
+71|“I doubt he wants much these days.”|MOM|D|somber
+72|I suck in a breath but keep my mouth shut. Arguing will get me nowhere. She’s never listened to a damned thing I’ve had to say before, and today is no different.|NARRATOR|N|tense
+73|“Sending Violet into the Riders Quadrant is tantamount to a death sentence.”|NARRATOR|N|fearful
+74|Guess Mira isn’t done arguing.|NARRATOR|N|tense
+75|“She’s not strong enough, Mom! She’s already broken her arm this year, she sprains some joint every other week, and she’s not tall enough to mount any dragon big enough to keep her alive in a battle.”|MIRA|D|bitter
+76|“Seriously, Mira?” What. The. Hell.|VIOLET|D|angry
+77|My fingernails bite into my palms as I curl my hands into fists.|VIOLET|N|fearful
+78|Knowing my chances of survival are minimal is one thing. Having my sister throw my inadequacies in my face is another.|NARRATOR|N|bitter
+79|“Are you calling me weak?”|VIOLET|D|angry
+80|“No.” Mira squeezes my hand.|MIRA|D|tender
+81|“Just…fragile.”|MIRA|D|bitter
+82|That’s not any better.|VIOLET|N|bitter
+83|Dragons don’t bond fragile women. They incinerate them.|VIOLET|N|fearful
+84|“So she’s small.” Mom scans me up and down, taking in the generous fit of the cream belted tunic and pants I selected this morning for my potential execution.|MOM|D|tense
+85|I snort.|VIOLET|D|bitter
+86|“Are we just listing my faults now?”|VIOLET|D|bitter
+87|“I never said it was a fault.” Mom turns to my sister. “Mira, Violet deals with more pain before lunch than you do in an entire week.”|MOM|D|contemplative

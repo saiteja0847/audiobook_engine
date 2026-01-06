@@ -1,0 +1,165 @@
+{
+  "registry_metadata": {
+    "registry_version": "2.0",
+    "model_used": "gemini-1.5-pro",
+    "generated_timestamp": "2025-01-04T16:45:00Z",
+    "book_title": "Fourth Wing",
+    "chapter_range": "Chapters 1-5",
+    "total_speaking_characters": 8
+  },
+  "characters": [
+    {
+      "id": "CH_VIOLET",
+      "name": "Violet Sorrengail",
+      "aliases": ["Violet", "Violence", "Cadet Sorrengail", "Vi"],
+      "gender": "Female",
+      "age_group": "Young Adult",
+      "role": "Protagonist",
+      "approx_lines": 450,
+      "voice_profile": {
+        "accent": "American Standard (Neutral)",
+        "pitch": "Medium-High (Alto range)",
+        "timbre": "Breathy, Clear, Intelligent",
+        "pacing": "Fast (Variable, faster when anxious)"
+      },
+      "voice_seed_prompt": "Young adult American female, alto range, breathy texture with high clarity. Quick intelligent delivery with underlying anxiety and determination. Slightly faster pacing when stressed. Precise enunciation. Studio quality recording.",
+      "processing_tags": ["None"]
+    },
+    {
+      "id": "CH_XADEN",
+      "name": "Xaden Riorson",
+      "aliases": ["Xaden", "Riorson", "Wingleader Riorson", "Wingleader"],
+      "gender": "Male",
+      "age_group": "Young Adult",
+      "role": "Antagonist",
+      "approx_lines": 180,
+      "voice_profile": {
+        "accent": "Neutral American with slight urban edge",
+        "pitch": "Low (Baritone)",
+        "timbre": "Deep resonant with controlled intensity, slight gravel",
+        "pacing": "Measured, deliberate with strategic pauses"
+      },
+      "voice_seed_prompt": "Young adult American male, deep baritone, commanding presence with controlled intensity. Measured deliberate pacing with strategic pauses. Low resonant tone with slight gravel texture. Occasional dark humor. Professional recording.",
+      "processing_tags": ["None"]
+    },
+    {
+      "id": "CH_TAIRN",
+      "name": "Tairn",
+      "aliases": ["Tairn", "The Black Dragon", "Black Daggertail", "Her dragon"],
+      "gender": "Male",
+      "age_group": "Ancient",
+      "role": "Supporting",
+      "approx_lines": 85,
+      "voice_profile": {
+        "accent": "N/A (Telepathic)",
+        "pitch": "Very Low (Sub-bass, 80-120Hz)",
+        "timbre": "Deep rumbling, chest vibration quality, like distant thunder",
+        "pacing": "Slow, deliberate, commanding"
+      },
+      "voice_seed_prompt": "Ancient male dragon voice, extremely deep sub-bass register (80-120Hz), slow deliberate pacing with heavy chest resonance. Rumbling texture like distant thunder with slight growl undertone. Powerful, commanding, sardonic. Studio quality with sub-bass emphasis.",
+      "processing_tags": ["Sub-bass_Boost", "Reverb_Heavy", "Telepathic_Filter"]
+    },
+    {
+      "id": "CH_RHIANNON",
+      "name": "Rhiannon Matthias",
+      "aliases": ["Rhiannon", "Rhi"],
+      "gender": "Female",
+      "age_group": "Young Adult",
+      "role": "Supporting",
+      "approx_lines": 95,
+      "voice_profile": {
+        "accent": "Neutral American",
+        "pitch": "Medium (Alto)",
+        "timbre": "Warm, friendly with occasional fierce edge",
+        "pacing": "Moderate, conversational, natural cadence"
+      },
+      "voice_seed_prompt": "Young adult American female, warm alto, friendly supportive tone with occasional fierce protectiveness. Moderate pacing with casual conversational cadence. Quick to laugh. Girl-next-door quality. Studio recording.",
+      "processing_tags": ["None"]
+    },
+    {
+      "id": "CH_DAIN",
+      "name": "Dain Aetos",
+      "aliases": ["Dain", "Squad Leader Aetos", "Aetos"],
+      "gender": "Male",
+      "age_group": "Young Adult",
+      "role": "Supporting",
+      "approx_lines": 75,
+      "voice_profile": {
+        "accent": "Neutral American",
+        "pitch": "Medium (Tenor)",
+        "timbre": "Earnest, concerned with protective edge",
+        "pacing": "Moderate, becomes formal when commanding"
+      },
+      "voice_seed_prompt": "Young adult American male, tenor voice, earnest concerned tone with protective edge. Moderate pacing with slight tension when stressed. Becomes more formal in command role. Professional recording.",
+      "processing_tags": ["None"]
+    },
+    {
+      "id": "CH_LILITH",
+      "name": "General Lilith Sorrengail",
+      "aliases": ["General Sorrengail", "Mother", "Lilith", "The General"],
+      "gender": "Female",
+      "age_group": "Middle-Aged",
+      "role": "Supporting",
+      "approx_lines": 45,
+      "voice_profile": {
+        "accent": "British RP (Military precision)",
+        "pitch": "Medium-Low (Alto with depth)",
+        "timbre": "Commanding, cold authority, sharp edges",
+        "pacing": "Measured, deliberate, no wasted words"
+      },
+      "voice_seed_prompt": "Middle-aged female, commanding alto with authoritative depth. British RP accent with military precision. Measured deliberate pacing, cold controlled tone. Sharp edges, no warmth. Slight vocal tension. Professional recording.",
+      "processing_tags": ["None"]
+    },
+    {
+      "id": "CH_ANDARNA",
+      "name": "Andarna",
+      "aliases": ["Andarna", "The Golden Dragon", "Feathertail"],
+      "gender": "Female",
+      "age_group": "Child",
+      "role": "Supporting",
+      "approx_lines": 38,
+      "voice_profile": {
+        "accent": "N/A (Telepathic)",
+        "pitch": "High (Bright Tenor/Soprano)",
+        "timbre": "Youthful, bright, playful with crystalline quality",
+        "pacing": "Fast, energetic, enthusiastic"
+      },
+      "voice_seed_prompt": "Young dragon voice, bright tenor/soprano range with high clarity and crystalline quality. Fast energetic pacing with youthful enthusiasm. Playful, curious tone. Light reverb for telepathic quality. Studio recording.",
+      "processing_tags": ["Reverb_Light", "Telepathic_Filter"]
+    },
+    {
+      "id": "CH_CROWD_01",
+      "name": "Background Crowd Voices",
+      "aliases": ["Unnamed crowd", "Background voices", "Students"],
+      "gender": "Mixed",
+      "age_group": "Young Adult",
+      "role": "Background",
+      "approx_lines": 12,
+      "voice_profile": {
+        "accent": "American Standard",
+        "pitch": "Medium (Variable)",
+        "timbre": "Generic, neutral, mixed timbres",
+        "pacing": "Medium"
+      },
+      "voice_seed_prompt": "Mixed young adult voices, American neutral accent, medium pitch and pacing. Generic crowd murmur quality with varied timbres for natural background ambience. Studio recording.",
+      "processing_tags": ["Reverb_Light", "Crowd_Layer"]
+    },
+    {
+      "id": "NAR_01",
+      "name": "Narrator",
+      "aliases": ["Narrator", "Voice"],
+      "gender": "Female",
+      "age_group": "Adult",
+      "role": "Narrator",
+      "approx_lines": 0,
+      "voice_profile": {
+        "accent": "American Standard (Neutral)",
+        "pitch": "Medium (Alto)",
+        "timbre": "Warm, clear, professional narrator quality",
+        "pacing": "Even, measured with emotional range for drama"
+      },
+      "voice_seed_prompt": "Adult American female narrator, warm alto with clear articulation and professional quality. Even measured pacing with emotional variation for dramatic moments. Engaging storytelling tone without overacting. Studio quality.",
+      "processing_tags": ["None"]
+    }
+  ]
+}

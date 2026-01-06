@@ -1,0 +1,11 @@
+{
+  "speaker": "Violet Sorrengail",
+  "prompt_text": "The morning sun cast long shadows across the ancient stone walls. She paused at the doorway, her heart pounding with anticipation. Are you certain about this? he asked, his voice barely a whisper. The answer came swiftly, without hesitation or doubt. In that moment, everything changed forever. Some journeys begin with a single step into the unknown. Others start with words spoken softly in the dark.",
+  "audio_path": "seed.mp3",
+  "metadata": {
+    "voice_source": "elevenlabs",
+    "elevenlabs_voice_id": "dWYcGlh7tOYddEqs2c0E",
+    "elevenlabs_voice_name": "Violet Sorrengail",
+    "duration_seconds": 31.24525
+  }
+}

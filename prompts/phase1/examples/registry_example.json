@@ -1,0 +1,94 @@
+{
+  "registry_version": "1.0",
+  "generated_at": "2025-01-04T10:30:00Z",
+  "book_title": "Fourth Wing",
+  "chapter_range": "Chapters 1-5",
+  "model_used": "gemini-1.5-pro",
+  "characters": [
+    {
+      "id": "CH_VIOLET",
+      "name": "Violet Sorrengail",
+      "aliases": ["Violet", "Cadet Sorrengail", "Violence"],
+      "gender": "Female",
+      "approx_age": "20",
+      "role": "Protagonist",
+      "dialogue_count": 450,
+      "voice_seed_prompt": "Young adult American female, alto range, breathy texture with high clarity. Quick intelligent speech with underlying anxiety and determination. Slightly faster pacing when stressed. Studio quality recording.",
+      "vocal_characteristics": {
+        "vocal_range": "Alto",
+        "speech_patterns": "Quick, precise, academic delivery. Tends to speak faster when nervous. Emphasis on logical arguments.",
+        "accent": "Neutral American",
+        "baseline_emotion": "Determined with underlying anxiety"
+      },
+      "personality_mood": "Intelligent and determined, physically fragile but mentally strong. Often defensive but fiercely loyal."
+    },
+    {
+      "id": "CH_XADEN",
+      "name": "Xaden Riorson",
+      "aliases": ["Xaden", "Wingleader Riorson"],
+      "gender": "Male",
+      "approx_age": "23-25",
+      "role": "Antagonist/Love Interest",
+      "dialogue_count": 180,
+      "voice_seed_prompt": "Young adult American male, deep baritone, commanding presence with controlled intensity. Measured deliberate pacing. Occasional dark humor. Low resonant tone with slight gravel. Professional recording.",
+      "vocal_characteristics": {
+        "vocal_range": "Baritone",
+        "speech_patterns": "Deliberate, controlled delivery. Strategic pauses. Commands without raising voice. Occasional dry humor.",
+        "accent": "Neutral American with slight urban edge",
+        "baseline_emotion": "Controlled intensity, calculating"
+      },
+      "personality_mood": "Dangerous, intelligent, protective. Hides vulnerability behind authority."
+    },
+    {
+      "id": "CH_RHIANNON",
+      "name": "Rhiannon Matthias",
+      "aliases": ["Rhiannon", "Rhi"],
+      "gender": "Female",
+      "approx_age": "20-21",
+      "role": "Supporting",
+      "dialogue_count": 95,
+      "voice_seed_prompt": "Young adult American female, warm alto, friendly supportive tone with occasional fierce protectiveness. Moderate pacing with casual cadence. Girl-next-door quality. Studio recording.",
+      "vocal_characteristics": {
+        "vocal_range": "Alto",
+        "speech_patterns": "Conversational, supportive delivery. Quick to laugh. Fierce when defending friends. Natural cadence.",
+        "accent": "Neutral American",
+        "baseline_emotion": "Friendly confidence"
+      },
+      "personality_mood": "Loyal friend, fierce protector, practical and grounded."
+    },
+    {
+      "id": "CH_DAIN",
+      "name": "Dain Aetos",
+      "aliases": ["Dain", "Squad Leader Aetos"],
+      "gender": "Male",
+      "approx_age": "21-22",
+      "role": "Supporting",
+      "dialogue_count": 75,
+      "voice_seed_prompt": "Young adult American male, tenor voice, earnest concerned tone with protective edge. Moderate pacing. Slight tension when stressed. Professional recording.",
+      "vocal_characteristics": {
+        "vocal_range": "Tenor",
+        "speech_patterns": "Earnest, concerned delivery. Tendency to be protective/patronizing. Formal when in command role.",
+        "accent": "Neutral American",
+        "baseline_emotion": "Concerned protectiveness"
+      },
+      "personality_mood": "Protective, rule-following, conflicted between duty and care."
+    },
+    {
+      "id": "NAR_01",
+      "name": "Narrator",
+      "aliases": ["Narrator"],
+      "gender": "Female",
+      "approx_age": "Adult",
+      "role": "Narrator",
+      "dialogue_count": 0,
+      "voice_seed_prompt": "Adult American female, warm alto with clear articulation. Professional narrator quality. Even pacing with emotional range for dramatic moments. Engaging storytelling tone. Studio quality.",
+      "vocal_characteristics": {
+        "vocal_range": "Alto",
+        "speech_patterns": "Professional narration, even pacing, clear enunciation. Emotional variation for dramatic moments.",
+        "accent": "Neutral American",
+        "baseline_emotion": "Neutral, engaging storyteller"
+      },
+      "personality_mood": "Professional narrator with ability to convey emotion without overacting."
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Audiobook Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 <span id="project-name">Loading...</span></h1>
+            <nav>
+                <a href="/" class="btn btn-secondary">← Back to Projects</a>
+                <button id="stop-server" class="btn btn-danger">Stop Server</button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Tab Navigation -->
+            <nav class="tabs-nav">
+                <button class="tab-button active" data-tab="chunks">📄 Chunks</button>
+                <button class="tab-button" data-tab="seeds">🎤 Seeds</button>
+                <button class="tab-button" data-tab="chunking">✂️ Chunking</button>
+                <button class="tab-button" data-tab="generation">🎵 Generation</button>
+            </nav>
+
+            <!-- Project Stats -->
+            <section class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-chunks">-</div>
+                        <div class="stat-label">Total Chunks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="generated-chunks">-</div>
+                        <div class="stat-label">Generated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-duration">-</div>
+                        <div class="stat-label">Duration</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="voice-seeds">-</div>
+                        <div class="stat-label">Voice Seeds</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chunks Tab Content -->
+            <div id="chunks-tab" class="tab-content active">
+            <!-- Generation Controls -->
+            <section class="controls-section">
+                <div class="controls-header">
+                    <h2>Generation</h2>
+                    <div class="controls-buttons">
+                        <button id="view-book" class="btn btn-secondary">📖 View Book</button>
+                        <button id="generate-all" class="btn btn-primary">Generate All</button>
+                        <button id="generate-selected" class="btn btn-primary" disabled>Generate Selected</button>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="force-regenerate">
+                            Force Regenerate
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Bulk Generation Settings -->
+                <div class="bulk-settings" style="margin-top: 1rem; padding: 1rem; background: var(--bg-secondary); border-radius: var(--radius); border: 1px solid var(--border);">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 0.875rem; font-weight: 600;">Bulk Generation Settings</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.75rem; margin-bottom: 0.25rem;">Default TTS Provider</label>
+                            <select id="bulk-tts-provider">
+                                <!-- Populated dynamically -->
+                            </select>
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.75rem; margin-bottom: 0.25rem;">Default Inference Method</label>
+                            <select id="bulk-inference-method">
+                                <!-- Populated dynamically -->
+                            </select>
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.75rem; margin-bottom: 0.25rem;">Default Speed: <span id="bulk-speed-value">1.0x</span></label>
+                            <input type="range" id="bulk-speed" min="0.5" max="2.0" step="0.1" value="1.0" style="width: 100%;">
+                            <div style="display: flex; justify-content: space-between; font-size: 0.625rem; color: var(--text-secondary); margin-top: 0.125rem;">
+                                <span>0.5x</span>
+                                <span>1.0x</span>
+                                <span>2.0x</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin: 0.5rem 0 0 0; font-size: 0.75rem; color: var(--text-secondary);">
+                        These settings will be applied to chunks that don't have custom TTS configuration.
+                    </p>
+                </div>
+
+                <!-- Progress Bar -->
+                <div id="generation-progress" class="progress-container" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span id="progress-message">Generating...</span>
+                        <span id="progress-percentage">0%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Full Audiobook Player -->
+            <section class="full-audio-section" style="margin-top: 1rem; padding: 1rem; background: var(--bg-secondary); border-radius: var(--radius); border: 1px solid var(--border);">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                    <h3 style="margin: 0; font-size: 0.875rem; font-weight: 600;">🎧 Full Audiobook</h3>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <button id="rebuild-full-audio" class="btn btn-secondary" style="font-size: 0.75rem; padding: 0.375rem 0.75rem;">
+                            🔄 Rebuild
+                        </button>
+                        <span id="full-audio-stats" style="font-size: 0.75rem; color: var(--text-secondary);"></span>
+                    </div>
+                </div>
+                <div id="full-audio-player-container" style="display: none;">
+                    <audio id="full-audio-player" controls style="width: 100%; margin-bottom: 0.5rem;">
+                        <source id="full-audio-source" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div style="font-size: 0.75rem; color: var(--text-secondary);">
+                        💡 Listen to all generated chunks combined with pauses. Helps verify voice consistency.
+                    </div>
+                </div>
+                <div id="full-audio-placeholder" style="text-align: center; padding: 1rem; color: var(--text-secondary); font-size: 0.875rem;">
+                    No full audiobook available. Click "Rebuild" after generating some chunks.
+                </div>
+            </section>
+
+            <!-- Filters -->
+            <section class="filters-section">
+                <div class="filters">
+                    <input type="text" id="search-chunks" placeholder="Search chunks...">
+                    <select id="filter-speaker">
+                        <option value="">All Speakers</option>
+                    </select>
+                    <select id="filter-type">
+                        <option value="">All Types</option>
+                        <option value="dialogue">Dialogue</option>
+                        <option value="narration">Narration</option>
+                        <option value="internal_monologue">Internal Monologue</option>
+                    </select>
+                    <select id="filter-status">
+                        <option value="">All Status</option>
+                        <option value="generated">Generated</option>
+                        <option value="not-generated">Not Generated</option>
+                    </select>
+                </div>
+
+                <!-- Chunk Range Selector -->
+                <div style="margin-top: 1rem; display: flex; gap: 0.5rem; align-items: center;">
+                    <input
+                        type="text"
+                        id="chunk-range-input"
+                        placeholder="e.g., 1,2-10,18 or leave empty for filtered chunks"
+                        style="flex: 1; padding: 0.5rem; border: 1px solid var(--border); border-radius: var(--radius); font-size: 0.875rem;"
+                    >
+                    <button id="select-by-range" class="btn btn-secondary">Select Range</button>
+                    <button id="generate-range" class="btn btn-primary">Generate Range</button>
+                </div>
+                <div style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--text-secondary);">
+                    💡 Enter chunk numbers or ranges (e.g., 1,2-10,18) to select specific chunks. Leave empty to use filters.
+                </div>
+            </section>
+
+            <!-- Chunks List -->
+            <section class="chunks-section">
+                <div class="section-header">
+                    <h2>Chunks</h2>
+                    <div class="chunk-actions">
+                        <button id="select-all" class="btn btn-secondary">Select All</button>
+                        <button id="deselect-all" class="btn btn-secondary">Deselect All</button>
+                    </div>
+                </div>
+
+                <div id="chunks-list" class="chunks-list">
+                    <div class="loading">Loading chunks...</div>
+                </div>
+            </section>
+            </div><!-- End Chunks Tab -->
+
+            <!-- Seeds Tab Content -->
+            <div id="seeds-tab" class="tab-content">
+                <section class="seeds-section">
+                    <div class="section-header">
+                        <h2>Voice Seeds</h2>
+                        <button id="generate-seed" class="btn btn-primary">+ Generate New Seed</button>
+                    </div>
+
+                    <!-- Character Registry -->
+                    <div id="character-registry" class="character-registry">
+                        <h3>Character Registry</h3>
+                        <div id="characters-list" class="characters-grid">
+                            <div class="loading">Loading characters...</div>
+                        </div>
+                    </div>
+
+                    <!-- Seeds List -->
+                    <div id="seeds-list" class="seeds-grid">
+                        <div class="loading">Loading seeds...</div>
+                    </div>
+                </section>
+            </div><!-- End Seeds Tab -->
+
+            <!-- Chunking Tab Content -->
+            <div id="chunking-tab" class="tab-content">
+                <section class="chunking-section">
+                    <div class="section-header">
+                        <h2>Book Chunking</h2>
+                    </div>
+
+                    <div class="chunking-controls">
+                        <div class="info-box">
+                            <p>📚 Current Status: <span id="chunking-status">Not chunked</span></p>
+                            <p>Total Chunks: <span id="chunking-count">-</span></p>
+                        </div>
+
+                        <button id="chunk-book-btn" class="btn btn-primary btn-large">
+                            ✂️ Chunk Book with Anthropic API
+                        </button>
+
+                        <div class="chunking-info">
+                            <p><strong>How it works:</strong></p>
+                            <ul>
+                                <li>Sends book content to Anthropic Claude API</li>
+                                <li>Intelligently splits into dialogue and narration chunks</li>
+                                <li>Identifies speakers and emotional context</li>
+                                <li>Creates optimized chunks for TTS generation</li>
+                            </ul>
+                            <p class="text-secondary">⚠️ This feature will be implemented soon</p>
+                        </div>
+                    </div>
+                </section>
+            </div><!-- End Chunking Tab -->
+
+            <!-- Generation Tab Content (Full Audiobook) -->
+            <div id="generation-tab" class="tab-content">
+                <section class="full-generation-section">
+                    <div class="section-header">
+                        <h2>Full Audiobook</h2>
+                    </div>
+
+                    <div class="audiobook-player">
+                        <h3>Generated Audiobook</h3>
+                        <div id="full-audiobook-player" class="audio-player-large">
+                            <p class="text-secondary">No full audiobook generated yet</p>
+                            <audio controls id="full-audiobook-audio" style="display: none; width: 100%;">
+                                <source type="audio/wav">
+                            </audio>
+                        </div>
+
+                        <div class="audiobook-info" id="audiobook-info" style="display: none;">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <span class="info-label">Duration:</span>
+                                    <span class="info-value" id="full-duration">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">File Size:</span>
+                                    <span class="info-value" id="full-size">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Generated:</span>
+                                    <span class="info-value" id="full-date">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="download-audiobook" class="btn btn-secondary" style="display: none;">
+                            ⬇️ Download Audiobook
+                        </button>
+                    </div>
+                </section>
+            </div><!-- End Generation Tab -->
+
+        </main>
+    </div>
+
+    <!-- Chunk Edit Modal -->
+    <div id="chunk-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Chunk <span id="modal-chunk-id"></span></h2>
+                <button class="modal-close">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Text</label>
+                    <textarea id="modal-text" rows="4" readonly></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Speaker</label>
+                        <input type="text" id="modal-speaker" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Type</label>
+                        <input type="text" id="modal-type" readonly>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>TTS Provider</label>
+                    <select id="modal-tts-provider">
+                        <!-- Populated dynamically -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Inference Method</label>
+                    <select id="modal-inference-method">
+                        <option value="instruct2">Instruct2 (Emotion Control)</option>
+                        <option value="auto">Auto</option>
+                        <option value="zero-shot">Zero-Shot</option>
+                        <option value="cross-lingual">Cross-Lingual</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Playback Speed: <span id="modal-speed-value">1.0x</span></label>
+                    <input type="range" id="modal-speed" min="0.5" max="2.0" step="0.1" value="1.0" style="width: 100%;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">
+                        <span>0.5x (slower)</span>
+                        <span>1.0x (normal)</span>
+                        <span>2.0x (faster)</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Emotion Prompt (for Instruct2)</label>
+                    <input
+                        type="text"
+                        id="modal-emotion-prompt"
+                        placeholder="e.g., 'in a tense whisper with urgency' or leave empty for neutral"
+                        style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;"
+                    >
+                    <small style="display: block; margin-top: 0.25rem; color: var(--text-secondary); font-size: 0.75rem;">
+                        Natural language instruction for voice emotion. Works best with Instruct2 method.
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label>Audio Effects</label>
+                    <div id="modal-effects" class="effects-container">
+                        <!-- Populated dynamically -->
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                        <select id="effect-selector" class="flex-1">
+                            <!-- Populated dynamically -->
+                        </select>
+                        <button id="add-effect" class="btn btn-secondary">+ Add Effect</button>
+                    </div>
+                </div>
+
+                <!-- Audio Player -->
+                <div id="modal-audio-player" class="audio-player" style="display: none;">
+                    <label>Generated Audio</label>
+                    <audio controls id="modal-audio">
+                        <source type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="modal-save" class="btn btn-primary">Save Changes</button>
+                <button id="modal-generate" class="btn btn-success">Generate Audio</button>
+                <button class="btn btn-secondary modal-close">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terminal Logger -->
+    <div id="logger-panel" class="logger-panel" style="display: none;">
+        <div class="logger-header">
+            <h3>📋 Server Logs</h3>
+            <div>
+                <button id="clear-logs" class="btn btn-small">Clear</button>
+                <button id="toggle-logger" class="btn btn-small">Hide</button>
+            </div>
+        </div>
+        <div id="logger-output" class="logger-output"></div>
+    </div>
+
+    <!-- Logger Toggle Button -->
+    <button id="show-logger" class="logger-toggle-btn">📋 Show Logs</button>
+
+    <!-- Book Content Modal -->
+    <div id="book-modal" class="modal">
+        <div class="modal-content" style="max-width: 900px;">
+            <div class="modal-header">
+                <h2>📖 Book Content</h2>
+                <button class="modal-close book-modal-close">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group">
+                    <textarea id="book-content" rows="25" readonly style="font-family: monospace; font-size: 14px; line-height: 1.6;"></textarea>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary book-modal-close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const PROJECT_SLUG = "{{ project_slug }}";
+    </script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='project.js') }}"></script>
+    <script>
+        // Initialize project page
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProject();
+            setupEventListeners();
+            startStatusPolling();
+        });
+    </script>
+</body>
+</html>
